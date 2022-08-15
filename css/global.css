@@ -1,0 +1,38 @@
+/* Outer margin is controlled with margin*/
+/*Frame is controlled with border*/
+/*Inner padding is controlled with padding*/
+
+* {margin: 0; padding: 0;} /*remove default spacing*/
+
+body {
+	background-color: #929292;
+}
+
+
+#container {
+	background-color:#e6e6e6;
+	margin: auto; /*centring*/
+	width: 1000px;
+}
+
+/*HEADER*/
+header {
+	background-color: #ffffff;
+	height: 180px;
+}
+
+/*SUBMENU*/
+#submenu {
+	width: 200px;
+}
+
+/*CONTENT*/
+#content {
+	background-color: #ededed;
+	width: 750px;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #1f1f1f;
+}

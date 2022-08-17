@@ -23,16 +23,20 @@ header {
 
 /*SUBMENU*/
 #submenu {
+	float: left;
 	width: 200px;
 }
 
 /*CONTENT*/
 #content {
 	background-color: #ededed;
+	float: right;
+	min-height: 300px; /*Larger than #submenu height*/
 	width: 750px;
 }
 
 /*FOOTER*/
 footer {
 	background-color: #1f1f1f;
+	clear: both;
 }

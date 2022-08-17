@@ -15,10 +15,40 @@ body {
 	width: 1000px;
 }
 
+#logo {
+	width: 160px;
+	height: 144px;
+	margin: 20px 0 0 90px;
+}
+
 /*HEADER*/
 header {
 	background-color: #ffffff;
+	border-bottom: solid 1px #dad9d9;
+	border-top: solid 3px #912124;
 	height: 180px;
+	position: relative;
+}
+
+header nav /*Top Menu*/ {
+	bottom: 20px;
+	height: 30px;
+	position: absolute;
+	right: 100px;
+}
+
+header nav a /*Top Menu Links*/ {
+	color: #979696;
+	font-family: Verdana;
+	font-size: 14px;
+	margin: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav a:hover {
+	border-bottom: solid 3px #912124;
+	color: #606060;
 }
 
 /*SUBMENU*/
